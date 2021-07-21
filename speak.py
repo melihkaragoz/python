@@ -10,6 +10,6 @@ while True:
 	name = "audio.mp3"
 	tts.save(name)
 	playsound(name)
-	url = "sudo rm "+name
+	url = "rm "+name
 	os.system(url)
 
